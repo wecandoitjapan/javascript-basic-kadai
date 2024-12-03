@@ -1,5 +1,12 @@
-let bodyWeight = 68;
+// 変数の宣言
+let weight;
+let height;
+let bmi;
 
-let height = 1.7;
+// 値の代入
+weight = 68;
+height = 1.7;
+bmi = (weight / (height * height));
 
-console.log(bodyWeight / (height * height));
+// コンソールへ出力
+console.log(bmi);
