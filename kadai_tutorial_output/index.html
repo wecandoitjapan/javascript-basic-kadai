@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>タイピングゲーム</title>
+        <meta charset="UTF-8">
+        <meta name="desctiption" content="[JavaScript応用編]簡易的なタイピングゲームです">
+        <!-- ブラウザはviewportのレンダリング結果を液晶の画面サイズに合うようにズームアップまたはダウンして表示方法 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- css読み込み -->
+         <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- 固有の操作IDと、再利用をするためにClassを使うため2つ記述 -->
+        <p id="count" class="count">60</p>
+        <!-- 固有の操作IDと、再利用をするためにClassを使うため2つ記述 -->
+        <div id="wrap" class="wrap">
+            <span id="typed" class="typed"></span><span id="untyped"></span>
+        </div>
+        <!-- button属性を使う -->
+        <button id="start">スタート</button>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
